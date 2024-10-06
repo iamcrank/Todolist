@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+  <div class="wrapper">
+  <div class="main">
+    <h1>My ToDo List</h1>
+    <div class="display">
+      <input type="text" id="task" placeholder="Please Add Your next Task">
+      <button id="add">Add.</button>
+    </div>
+    <div class="tasktitle">
+      <h3>Active Tasks</h3>
+      <h3>Completed Tasks </h3>
+      <h3>Removed Tasks</h3>
+    </div>
+    <div class="tasklist">
+      <div class="box">
+        <ul id="list"></ul>
+        <ul id="completedList"></ul>
+        <ul id="removedList" ></ul>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
